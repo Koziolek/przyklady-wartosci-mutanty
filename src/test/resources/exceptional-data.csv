@@ -1,0 +1,4 @@
+2147483647,1,Result overflow MAX_INT
+2147483647,2147483647,Result overflow MAX_INT
+-2147483648,-1,Result overflow MIN_INT
+-2147483648,-2147483648,Result overflow MIN_INT
