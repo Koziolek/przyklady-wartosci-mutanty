@@ -1,5 +1,6 @@
 module pl.koziolekweb.pwm {
     requires java.logging;
+    requires java.validation;
     requires com.google.common;
 
     opens pl.koziolekweb.pwm.byexample;
