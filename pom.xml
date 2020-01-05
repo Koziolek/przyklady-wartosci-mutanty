@@ -7,7 +7,7 @@
     <groupId>pl.koziolekweb</groupId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <description>Przykłady, własności mutanty </description>
+    <description>Przykłady, własności, mutanty</description>
 
     <url>https://github.com/example/test</url>
 
@@ -42,53 +42,28 @@
 
     <contributors>
         <contributor>
-            <name>Some Contributor</name>
-            <email>some.contributor@example.com</email>
-            <url>http://example.com/</url>
-            <organization>Example Organization</organization>
-            <organizationUrl>http://example.com/</organizationUrl>
+            <email>some.developer@example.com</email>
+            <name>Koziołek</name>
+            <organization>koziolekweb</organization>
+            <organizationUrl>https://koziolekweb.pl/</organizationUrl>
             <roles>
-                <role>scrum-master</role>
+                <role>Fabricator-general</role>
             </roles>
-            <timezone>Europe/Amsterdam</timezone>
-        </contributor>
-        <contributor>
-            <name>Another Contributor</name>
-            <email>another.contributor@example.com</email>
-            <url>http://example.com/</url>
-            <organization>Example Organization</organization>
-            <organizationUrl>http://example.com/</organizationUrl>
-            <roles>
-                <role>product-owner</role>
-            </roles>
-            <timezone>Europe/Amsterdam</timezone>
+            <timezone>Europe/Warsaw</timezone>
         </contributor>
     </contributors>
 
     <developers>
         <developer>
-            <id>somedev</id>
+            <id>Koziolek</id>
             <email>some.developer@example.com</email>
-            <name>Some Developer</name>
-            <organization>Example Organization</organization>
-            <organizationUrl>http://example.com/</organizationUrl>
+            <name>Koziołek</name>
+            <organization>koziolekweb</organization>
+            <organizationUrl>https://koziolekweb.pl/</organizationUrl>
             <roles>
-                <role>architect</role>
-                <role>developer</role>
+                <role>Fabricator-general</role>
             </roles>
-            <timezone>Europe/Amsterdam</timezone>
-        </developer>
-        <developer>
-            <id>otherdev</id>
-            <email>other.developer@example.com</email>
-            <name>Other Developer</name>
-            <organization>Example Organization</organization>
-            <organizationUrl>http://example.com/</organizationUrl>
-            <roles>
-                <role>architect</role>
-                <role>developer</role>
-            </roles>
-            <timezone>Europe/Amsterdam</timezone>
+            <timezone>Europe/Warsaw</timezone>
         </developer>
     </developers>
 
@@ -158,6 +133,12 @@
             <groupId>com.tngtech.jgiven</groupId>
             <artifactId>jgiven-junit5</artifactId>
             <version>1.0.0-RC3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
