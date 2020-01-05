@@ -1,6 +1,6 @@
 # Przykłady, własności mutanty 
 
-Source code from my presentation „Przykłady, Własności, Mutacje, czyli testy jednostkowe na pełnym wypasie”. 
+Source code from my presentation „Przykłady, Własności, Mutacje, czyli wypaśne testy jednostkowe”. 
 
 1. Slides https://slides.com/koziolek/przylkady-wlasnosci-mutanty
 1. Getting code: `git clone https://github.com/Koziolek/przyklady-wartosci-mutanty.git`
